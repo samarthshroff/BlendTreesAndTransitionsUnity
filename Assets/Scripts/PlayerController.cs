@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 	private void Awake()
 	{
 		_rigidbody = GetComponent<Rigidbody>();
+		_rigidbody.detectCollisions = true;
 	}
 
 
@@ -138,5 +139,17 @@ public class PlayerController : MonoBehaviour
 	{
 		var lookVector = context.ReadValue<Vector2>();
 		_rawLookVector = new Vector3(lookVector.x, 0.0f, 0.0f);
+	}
+
+	private void OnCollisionEnter(Collision other)
+	{
+		if (other.gameObject.CompareTag("Walls"))
+		{
+			var wallType = other.gameObject.GetComponent<WallBase>().WallType;
+			if (wallType == WallType.Climbable)
+			{
+				Debug.Log("[PlayerController][OnCollisionEnter] the wall is climbable. changing animation here");
+			}
+		}
 	}
 }

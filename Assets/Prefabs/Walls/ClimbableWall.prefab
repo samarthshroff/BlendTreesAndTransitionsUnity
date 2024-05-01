@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 203059722467793733, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 203059722467793733, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d828d965dd3389d4baf10b61c8029800, type: 2}
     - target: {fileID: 2114358411351681210, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
       propertyPath: WallType
       value: 1
@@ -15,6 +23,10 @@ PrefabInstance:
     - target: {fileID: 4380788364160898929, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
       propertyPath: m_Name
       value: ClimbableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380788364160898929, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5299883252765260227, guid: 3000a636a7bb84eb38a137a77d1eb10a, type: 3}
       propertyPath: m_LocalPosition.x
