@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "BlendTreesAndTransitionsUnity.sln"
+    "dotnet.defaultSolution": "BlendTreesAndTransitionsUnity.sln",
+    "dotnet.preferCSharpExtension": true
 }

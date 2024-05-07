@@ -1299,16 +1299,28 @@ PrefabInstance:
       value: ClimbableWall
       objectReference: {fileID: 0}
     - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.998662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.6576
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2252
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.89
+      value: 4.31
       objectReference: {fileID: 0}
     - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -42.41
+      value: -41.11
       objectReference: {fileID: 0}
     - target: {fileID: 6722796300089865163, guid: fe3de7a11f50646a0a5e73c91d52480e, type: 3}
       propertyPath: m_LocalRotation.w
