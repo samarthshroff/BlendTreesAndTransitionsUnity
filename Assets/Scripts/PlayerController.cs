@@ -93,11 +93,7 @@ public class PlayerController : MonoBehaviour
 			{
 				if (_movementSpeed == 0.0f)
 					break;
-				_movementSpeed = Mathf.Lerp(
-					_movementSpeed,
-					0.0f,
-					Time.deltaTime * _smoothingSpeed
-				);
+				_movementSpeed = Mathf.Lerp( _movementSpeed, 0.0f, Time.deltaTime * _smoothingSpeed);
 				if (_movementSpeed < 0.01f)
 				{
 					_movementSpeed = 0.0f;
@@ -107,11 +103,7 @@ public class PlayerController : MonoBehaviour
 
             case GroundedState.Walk:
 			{
-				_movementSpeed = Mathf.Lerp(
-					_movementSpeed,
-					_walkSpeed,
-					Time.deltaTime * _smoothingSpeed
-				);
+				_movementSpeed = Mathf.Lerp(_movementSpeed,_walkSpeed,Time.deltaTime * _smoothingSpeed);
 			}
 			break;
 
